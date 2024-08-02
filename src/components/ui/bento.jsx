@@ -141,12 +141,12 @@ export const SkeletonThree = () => {
 
 export const SkeletonTwo = () => {
   const images = [
-    '../../../public/graduation.png',
-    '../../../public/wedding.png',
-    '../../../public/prewed.png',
-    '../../../public/wisuda-3.png',
-    '../../../public/wedding-6.png',
-    '../../../public/wedding-7.png',
+    '/src/assets/images/graduation.png',
+    '/src/assets/images/wedding.png',
+    '/src/assets/images/prewed.png',
+    '/src/assets/images/wisuda-3.png',
+    '/src/assets/images/wedding-6.png',
+    '/src/assets/images/wedding-7.png',
   ]
 
   const imageVariants = {

@@ -125,7 +125,7 @@ const pricingData = {
         '30 Foto Edit',
         'Unlimited Photoshoot max 3 jam'
       ],
-      image: '../../../public/graduation.png'
+      image: '/src/assets/images/graduation.png'
     },
     {
       title: 'Paket Engagement',
@@ -137,7 +137,7 @@ const pricingData = {
         '30 Foto Edit',
         'Unlimited Photoshoot max 3 jam'
       ],
-      image: '../../../public/wedding.png'
+      image: '/src/assets/images/wedding.png'
     },
     {
       title: 'Paket Prewedding',
@@ -152,7 +152,7 @@ const pricingData = {
         'Tambah jam: 50K',
         'tambah Lokasi: 100K'
       ],
-      image: '../../../public/prewed.png'
+      image: '/src/assets/images/prewed.png'
     },
     {
       title: 'Paket Akad',
@@ -164,7 +164,7 @@ const pricingData = {
         '50 Foto Edit',
         'Unlimited Photoshoot max 3 jam'
       ],
-      image: '../../../public/wedding-2.png'
+      image: '/src/assets/images/wedding-2.png'
     },
     {
       title: 'Paket Resepsi',
@@ -176,7 +176,7 @@ const pricingData = {
         '50 Foto Edit',
         'Unlimited Photoshoot max 3 jam'
       ],
-      image: '../../../public/wedding-7.png'
+      image: '/src/assets/images/wedding-7.png'
     },
     {
       title: 'Paket Ultimate Wedding',
@@ -189,7 +189,7 @@ const pricingData = {
         'Unlimited Photoshoot',
         'Cetak 2 foto ukuran 12R dan figura'
       ],
-      image: '../../../public/wedding-6.png'
+      image: '/src/assets/images/wedding-6.png'
     }
   ],
   videografi: [
@@ -204,7 +204,7 @@ const pricingData = {
         'Kulialitas 1080p',
         '3 jam take video'
       ],
-      image: '../../../public/wedding.png'
+      image: '/src/assets/images/wedding.png'
     },
     {
       title: 'Paket Prewedding',
@@ -217,7 +217,7 @@ const pricingData = {
         'Kulialitas 1080p',
         '3 jam take video'
       ],
-      image: '../../../public/prewed.png'
+      image: '/src/assets/images/prewed.png'
     },
     {
       title: 'Paket Akad',
@@ -230,7 +230,7 @@ const pricingData = {
         'Kulialitas 1080p',
         '3 jam take video'
       ],
-      image: '../../../public/wedding-2.png'
+      image: '/src/assets/images/wedding-2.png'
     },
     {
       title: 'Paket Resepsi',
@@ -243,7 +243,7 @@ const pricingData = {
         'Kulialitas 1080p',
         '3 jam take video'
       ],
-      image: '../../../public/wedding-8.png'
+      image: '/src/assets/images/wedding-8.png'
     },
     {
       title: 'Paket Ultimate Wedding',
@@ -256,7 +256,7 @@ const pricingData = {
         'video teaser 1 menit',
         'Kulialitas 1080p'
       ],
-      image: '../../../public/wedding-6.png'
+      image: '/src/assets/images/wedding-6.png'
     }
   ]
 }
