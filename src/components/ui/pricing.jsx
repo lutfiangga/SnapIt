@@ -2,6 +2,21 @@ import React, { useState } from 'react'
 import { BentoGrid, BentoGridItem } from '../lib/bento-grid'
 import HoverBorderGradient from '../lib/hover-border-gradient'
 
+import graduation from '../../assets/images/graduation.png'
+import graduation2 from '../../assets/images/wisuda.png'
+import graduation3 from '../../assets/images/wisuda-2.png'
+import graduation4 from '../../assets/images/wisuda-3.png'
+import prewed from '../../assets/images/prewed.png'
+import wedding from '../../assets/images/wedding.png'
+import wedding2 from '../../assets/images/wedding-2.png'
+import wedding3 from '../../assets/images/wedding-4.png'
+import wedding4 from '../../assets/images/wedding-6.png'
+import wedding5 from '../../assets/images/wedding-7.png'
+import wedding6 from '../../assets/images/wedding-8.png'
+import produk from '../../assets/images/produk.png'
+import produk2 from '../../assets/images/produk-2.png'
+
+
 export const Pricing = () => {
   const [activeTab, setActiveTab] = useState('fotografi')
 
@@ -125,7 +140,7 @@ const pricingData = {
         '30 Foto Edit',
         'Unlimited Photoshoot max 3 jam'
       ],
-      image: '/src/assets/images/graduation.png'
+      image: graduation
     },
     {
       title: 'Paket Engagement',
@@ -137,7 +152,7 @@ const pricingData = {
         '30 Foto Edit',
         'Unlimited Photoshoot max 3 jam'
       ],
-      image: '/src/assets/images/wedding.png'
+      image: wedding
     },
     {
       title: 'Paket Prewedding',
@@ -152,7 +167,7 @@ const pricingData = {
         'Tambah jam: 50K',
         'tambah Lokasi: 100K'
       ],
-      image: '/src/assets/images/prewed.png'
+      image: prewed
     },
     {
       title: 'Paket Akad',
@@ -164,7 +179,7 @@ const pricingData = {
         '50 Foto Edit',
         'Unlimited Photoshoot max 3 jam'
       ],
-      image: '/src/assets/images/wedding-2.png'
+      image: wedding2
     },
     {
       title: 'Paket Resepsi',
@@ -176,7 +191,7 @@ const pricingData = {
         '50 Foto Edit',
         'Unlimited Photoshoot max 3 jam'
       ],
-      image: '/src/assets/images/wedding-7.png'
+      image: wedding5
     },
     {
       title: 'Paket Ultimate Wedding',
@@ -189,7 +204,7 @@ const pricingData = {
         'Unlimited Photoshoot',
         'Cetak 2 foto ukuran 12R dan figura'
       ],
-      image: '/src/assets/images/wedding-6.png'
+      image: wedding4
     }
   ],
   videografi: [
@@ -204,7 +219,7 @@ const pricingData = {
         'Kulialitas 1080p',
         '3 jam take video'
       ],
-      image: '/src/assets/images/wedding.png'
+      image: wedding
     },
     {
       title: 'Paket Prewedding',
@@ -217,7 +232,7 @@ const pricingData = {
         'Kulialitas 1080p',
         '3 jam take video'
       ],
-      image: '/src/assets/images/prewed.png'
+      image: prewed
     },
     {
       title: 'Paket Akad',
@@ -230,7 +245,7 @@ const pricingData = {
         'Kulialitas 1080p',
         '3 jam take video'
       ],
-      image: '/src/assets/images/wedding-2.png'
+      image: wedding2
     },
     {
       title: 'Paket Resepsi',
@@ -243,7 +258,7 @@ const pricingData = {
         'Kulialitas 1080p',
         '3 jam take video'
       ],
-      image: '/src/assets/images/wedding-8.png'
+      image: wedding6
     },
     {
       title: 'Paket Ultimate Wedding',
@@ -256,7 +271,7 @@ const pricingData = {
         'video teaser 1 menit',
         'Kulialitas 1080p'
       ],
-      image: '/src/assets/images/wedding-6.png'
+      image: wedding4
     }
   ]
 }

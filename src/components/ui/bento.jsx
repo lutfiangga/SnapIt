@@ -5,6 +5,17 @@ import { motion } from 'framer-motion'
 import { IconBrandYoutubeFilled } from '@tabler/icons-react'
 import { Link } from 'react-router-dom'
 
+import graduation from '../../assets/images/graduation.png';
+import graduation2 from '../../assets/images/wisuda.png';
+import graduation3 from '../../assets/images/wisuda-2.png';
+import graduation4 from '../../assets/images/wisuda-3.png';
+import prewed from '../../assets/images/prewed.png';
+import wedding from '../../assets/images/wedding.png';
+import wedding2 from '../../assets/images/wedding-2.png';
+import wedding3 from '../../assets/images/wedding-4.png';
+import wedding4 from '../../assets/images/wedding-6.png';
+import wedding5 from '../../assets/images/wedding-7.png';
+
 export function FeatureSection () {
   const features = [
     {
@@ -141,12 +152,12 @@ export const SkeletonThree = () => {
 
 export const SkeletonTwo = () => {
   const images = [
-    '/src/assets/images/graduation.png',
-    '/src/assets/images/wedding.png',
-    '/src/assets/images/prewed.png',
-    '/src/assets/images/wisuda-3.png',
-    '/src/assets/images/wedding-6.png',
-    '/src/assets/images/wedding-7.png',
+    graduation,
+   wedding,
+    prewed,
+    graduation3,
+    wedding4,
+    wedding5,
   ]
 
   const imageVariants = {
