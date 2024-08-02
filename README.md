@@ -2,7 +2,7 @@
 
 Selamat datang di halaman SnapIt!
 
-![SnapIt]('./public/thumbnail.png')
+![SnapIt](./public/thumbnail.png)
 
 ## Deskripsi
 
