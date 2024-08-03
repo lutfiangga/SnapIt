@@ -217,8 +217,8 @@ const pricingData = {
   fotografi: [
     {
       title: 'Paket Wisuda',
-      price: 'Rp 500.000',
-      discount: 'Rp 300.000',
+      price: 'Rp 700.000',
+      discount: 'Rp 500.000',
       header: <Skeleton />,
       paket: '',
       features: [
@@ -230,8 +230,8 @@ const pricingData = {
     },
     {
       title: 'Paket Engagement',
-      price: 'Rp 500.000',
-      discount: 'Rp 300.000',
+    price: 'Rp 700.000',
+      discount: 'Rp 500.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -242,8 +242,8 @@ const pricingData = {
     },
     {
       title: 'Paket Prewedding',
-      price: 'Rp 600.000',
-      discount: 'Rp 300.000',
+     price: 'Rp 800.000',
+      discount: 'Rp 500.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -257,8 +257,8 @@ const pricingData = {
     },
     {
       title: 'Paket Akad',
-      price: 'Rp 700.000',
-      discount: 'Rp 400.000',
+    price: 'Rp 900.000',
+      discount: 'Rp 600.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -269,8 +269,8 @@ const pricingData = {
     },
     {
       title: 'Paket Resepsi',
-      price: 'Rp 700.000',
-      discount: 'Rp 400.000',
+      price: 'Rp 900.000',
+      discount: 'Rp 600.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -281,8 +281,8 @@ const pricingData = {
     },
     {
       title: 'Paket Ultimate Wedding',
-      price: 'Rp 1.100.000',
-      discount: 'Rp 700.000',
+      price: 'Rp 1.200.000',
+      discount: 'Rp 800.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -296,8 +296,8 @@ const pricingData = {
   videografi: [
     {
       title: 'Paket Engagement',
-      price: 'Rp 600.000',
-      discount: 'Rp 350.000',
+      price: 'Rp 800.000',
+      discount: 'Rp 550.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -309,8 +309,8 @@ const pricingData = {
     },
     {
       title: 'Paket Prewedding',
-      price: 'Rp 600.000',
-      discount: 'Rp 350.000',
+        price: 'Rp 800.000',
+      discount: 'Rp 550.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -322,8 +322,8 @@ const pricingData = {
     },
     {
       title: 'Paket Akad',
-      price: 'Rp 650.000',
-      discount: 'Rp 350.000',
+       price: 'Rp 800.000',
+      discount: 'Rp 550.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -335,8 +335,8 @@ const pricingData = {
     },
     {
       title: 'Paket Resepsi',
-      price: 'Rp 700.000',
-      discount: 'Rp 350.000',
+       price: 'Rp 900.000',
+      discount: 'Rp 600.000',
       header: <Skeleton />,
       features: [
         'All file GD',
@@ -348,8 +348,8 @@ const pricingData = {
     },
     {
       title: 'Paket Ultimate Wedding',
-      price: 'Rp 1.000.000',
-      discount: 'Rp 600.000',
+      price: 'Rp 1.100.000',
+      discount: 'Rp 750.000',
       header: <Skeleton />,
       features: [
         'All file GD',
