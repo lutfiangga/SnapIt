@@ -15,7 +15,7 @@ import wedding5 from '../../assets/images/wedding-7.png'
 import wedding6 from '../../assets/images/wedding-8.png'
 import produk from '../../assets/images/produk.png'
 import produk2 from '../../assets/images/produk-2.png'
-
+import { BsCheck2Circle } from 'react-icons/bs'
 
 export const Pricing = () => {
   const [activeTab, setActiveTab] = useState('fotografi')
@@ -40,7 +40,24 @@ export const Pricing = () => {
           >
             <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
             <span className='inline-flex h-full w-full cursor-pointer items-center justify-center rounded-l-full bg-slate-950 px-6 py-2 md:px-8 md:py-4 lg:px-12 lg:py-4 text-sm font-medium text-white backdrop-blur-3xl'>
-              Fotografi
+              Foto
+            </span>
+          </button>
+        </HoverBorderGradient>
+        <HoverBorderGradient
+          containerClassName=''
+          as='button'
+          className='bg-black text-white flex items-center space-x-2'
+        >
+          <button
+            className={`text-sm md:text-base font-medium relative inline-flex h-12 overflow-hidden  p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 transition duration-300 ease-in-out ${
+              activeTab === 'videografi' ? '' : 'text-white'
+            }`}
+            onClick={() => handleTabChange('videografi')}
+          >
+            <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
+            <span className='inline-flex h-full w-full cursor-pointer items-center justify-center  bg-slate-950 px-6 py-2 md:px-8 md:py-4 lg:px-12 lg:py-4 text-sm font-medium text-white backdrop-blur-3xl'>
+              Video
             </span>
           </button>
         </HoverBorderGradient>
@@ -51,13 +68,13 @@ export const Pricing = () => {
         >
           <button
             className={`text-sm md:text-base font-medium relative inline-flex h-12 overflow-hidden rounded-r-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 transition duration-300 ease-in-out ${
-              activeTab === 'videografi' ? '' : 'text-white'
+              activeTab === 'undangan' ? '' : 'text-white'
             }`}
-            onClick={() => handleTabChange('videografi')}
+            onClick={() => handleTabChange('undangan')}
           >
             <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
             <span className='inline-flex h-full w-full cursor-pointer items-center justify-center rounded-r-full bg-slate-950 px-6 py-2 md:px-8 md:py-4 lg:px-12 lg:py-4 text-sm font-medium text-white backdrop-blur-3xl'>
-              Videografi
+              Undangan Digital
             </span>
           </button>
         </HoverBorderGradient>
@@ -99,6 +116,75 @@ export const Pricing = () => {
             />
           ))}
         </BentoGrid>
+      )}
+      {activeTab === 'undangan' && (
+        <div className='mx-auto w-5/6 md:w-2/3'>
+          <div className='rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 border-white/[0.2] border lg:flex lg:max-w-none'>
+            <div className='p-8 sm:p-10 lg:flex-auto'>
+              <div className='flex items-center gap-x-4'>
+                <h1 className='text-2xl font-bold tracking-tight text-white'>
+                  Undangan Digital
+                </h1>
+                <div className='h-px flex-auto'></div>
+              </div>
+              <ul className='mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6'>
+                <li className='flex items-center'>
+                  <BsCheck2Circle color='orange' />
+                  <span className='ml-2'>Undangan Pernikahan 🔥</span>
+                </li>
+                <li className='flex items-center'>
+                  <BsCheck2Circle color='orange' />
+                  <span className='ml-2'>Undangan Khitanan</span>
+                </li>
+                <li className='flex items-center'>
+                  <BsCheck2Circle color='orange' />
+                  <span className='ml-2'>Undangan Halal bi halal 🔥</span>
+                </li>
+                <li className='flex items-center'>
+                  <BsCheck2Circle color='orange' />
+                  <span className='ml-2'>Undangan Ulang tahun</span>
+                </li>
+                <li className='flex items-center'>
+                  <BsCheck2Circle color='orange' />
+                  <span className='ml-2'>Undangan Aqiqah</span>
+                </li>
+                <li className='flex items-center'>
+                  <BsCheck2Circle color='orange' />
+                  <span className='ml-2'>Undangan Buka bersama</span>
+                </li>
+                <li className='flex items-center'>
+                  <BsCheck2Circle color='orange' />
+                  <span className='ml-2'>Undangan Idul fitri</span>
+                </li>
+                <li className='flex items-center'>
+                  <BsCheck2Circle color='orange' />
+                  <span className='ml-2'>Dan lain lain</span>
+                </li>
+              </ul>
+            </div>
+            <div className='relative inline-flex h-full overflow-hidden rounded-xl p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 -mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0'>
+              <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
+              <span className='inline-flex h-full w-full cursor-pointer items-center justify-center rounded-xl bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl'>
+                <div className='py-10 text-center lg:flex lg:flex-col lg:justify-center lg:py-16'>
+                  <div className='mx-auto max-w-xs px-8'>
+                    <p className='text-base font-semibold text-gray-600'>
+                      Mulai dari
+                    </p>
+                    <p className='mt-6 mb-12 flex items-baseline justify-center gap-x-2'>
+                      <span className='text-5xl font-bold tracking-tight text-white'>
+                        Rp<span className='px-2'>50.000</span>
+                      </span>
+                    </p>
+                    <p className='mt-6 text-xs leading-5 text-gray-600'>
+                      Menghemat biaya pembuatan undangan dengan undangan digital
+                      <br /> Mulai dari Rp 50.000 saja.
+                    </p>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
       )}
     </>
   )
