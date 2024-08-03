@@ -11,7 +11,7 @@ const Sparkle = () => {
       <h1 className='md:text-5xl font-pixellate text-2xl lg:text-7xl font-bold text-center text-white relative z-20'>
         Paket Pilihan
       </h1>
-      <p className='max-w-2xl text-center flex justify-center text-base md:text-xl mt-8 dark:text-neutral-200'>
+      <p className='max-w-2xl text-center flex justify-center text-base md:text-xl mt-8 text-neutral-200'>
         Kami siap mengabadikan momen istimewa Anda dengan keahlian dan
         kreativitas, menghasilkan foto yang penuh makna dan keindahan.
       </p>
